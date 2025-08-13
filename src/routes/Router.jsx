@@ -21,7 +21,7 @@ const router = createBrowserRouter([
             {path: "Privacy-Policy", element: <PrivacyPolicy />},
             {path: "Products", element: <Products />},
             {path: "Terms-And-Service", element: <TermsAndService />},
-            {path: "Error", element: <Error />}
+            {path: "*", element: <Error />}
         ]
     }
 ]);
