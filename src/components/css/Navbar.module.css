@@ -1,13 +1,16 @@
 .navbar {
     width: 100%;
     display: flex;
-
+    margin-bottom: 10px;
     height: 80px;
 }
 
 .img {
     display: flex;
-    justify-content: flex-start;
+    height: 90%;
+    justify-content: center;
+    margin-left: 0.5%;
+    margin-top: auto;
 }
 
 .list {
@@ -20,11 +23,12 @@
 }
 
 .list > li{
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .item {
     text-decoration: none;
+    font-weight: 1000;
     color: white;
 }
 
