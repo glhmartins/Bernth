@@ -14,10 +14,10 @@ function Footer(){
                 
                 {/* Social Medias */}
                 <div className={style.socials}>
-                    <Link className={style.social} to="http://www.facebook.com/bernthofficial"><FaFacebook/></Link>
-                    <Link className={style.social} to="http://www.instagram.com/bernthofficial"><FaInstagram/></Link>
-                    <Link className={style.social} to="http://www.youtube.com/bernthguitar"><FaYoutube/></Link>
-                    <Link className={style.social} to="https://www.patreon.com/bernth"><FaPatreon/></Link>
+                    <Link className={style.social} target='_blank' to="http://www.facebook.com/bernthofficial"><FaFacebook/></Link>
+                    <Link className={style.social} target='_blank' to="http://www.instagram.com/bernthofficial"><FaInstagram/></Link>
+                    <Link className={style.social} target='_blank' to="http://www.youtube.com/bernthguitar"><FaYoutube/></Link>
+                    <Link className={style.social} target='_blank' to="https://www.patreon.com/bernth"><FaPatreon/></Link>
                 </div>
 
                 {/* Links */}
