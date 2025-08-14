@@ -1,0 +1,29 @@
+.legalDisclosure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    color: white;
+}
+
+.title {
+    font-size: 1.7rem;
+    margin: 20px;
+}
+
+.text {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: var(--cor1);
+}
+
+.contact {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}

@@ -10,8 +10,8 @@
 
 .img {
     height: auto;
-    width: 8%;
-    margin-bottom: 4%;
+    width: 70px;
+    margin: 20px;
 }
 
 .Digi {
@@ -27,15 +27,17 @@
 
 .socials {
     display: flex;
-    width: 25%;
-    margin-bottom: 4%;
-    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
     align-items: center;
 }
 
 .social {
     color: white;
-    font-size: 1.5rem;
+    margin: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
 }
 
 .social:hover{
@@ -43,8 +45,8 @@
 }
 
 .copyright {
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 0.9rem;
     color: rgba(211, 211, 211, 0.5);
 }

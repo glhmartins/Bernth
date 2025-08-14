@@ -5,7 +5,7 @@ import style from './css/Layout.module.css'
 
 function Layout(){
     return(
-        <>
+        <div className={style.container}>
             <div className={style.layout}>
                 <Navbar />
                 <div>
@@ -13,7 +13,7 @@ function Layout(){
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
 
