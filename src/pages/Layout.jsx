@@ -12,7 +12,9 @@ function Layout(){
                     <Outlet />
                 </div>
             </div>
+            <div className={style.footer}>
             <Footer />
+            </div>
         </div>
     )
 }

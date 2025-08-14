@@ -4,7 +4,9 @@
 }
 
 .layout {
+    position: relative;
     background: var(--background);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
