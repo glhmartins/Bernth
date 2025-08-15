@@ -10,9 +10,18 @@
 
 .terms > h1 {
     color: var(--cor1);
+    font-size: 2.2rem;
 }
 
 .terms > section {
-    width: 45%;
+    width: 50%;
     color: white;
+}
+
+section > h2 {
+    font-size: 1.8rem;
+}
+
+section > p{
+    font-size: 1.1rem;
 }

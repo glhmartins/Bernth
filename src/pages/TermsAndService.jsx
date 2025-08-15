@@ -4,7 +4,6 @@ function TermsAndService(){
     return(
         <div className={style.terms}>
             <h1>TERMS OF SERVICE</h1>
-
             <section>
                 <h2>Overview</h2>
                 <br/>
