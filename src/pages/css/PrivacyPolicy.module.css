@@ -13,11 +13,6 @@
     font-size: 2.2rem;
 }
 
-.privacyPolicy > p{
-    font-size: 1.1rem;
-    color: white;
-}
-
 .privacyPolicy > section {
     width: 50%;
     color: white;
@@ -27,6 +22,16 @@ section > h2 {
     font-size: 1.8rem;
 }
 
-section p{
+section > p { 
     font-size: 1.1rem;
+}
+
+section > h3 {
+    font-size: 1.4rem;
+    color: rgba(211, 211, 211, 0.8);
+    font-weight: lighter;
+}
+
+.link {
+    color: var(--cor1);
 }
