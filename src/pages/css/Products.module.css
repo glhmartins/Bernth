@@ -1,8 +1,5 @@
 .products {
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
     margin-top: 150px;
 }
 
@@ -19,20 +16,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imgSweep, .imgStep {
-    width: 60%;
+    width: 30%;
 }
 
 .sweepProduct, .stepProduct {
-    width: 100vw;
-    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 30px;
     display: grid;
+    background-color: white;
     grid-template-columns: 55% 45%;
     grid-auto-rows: 1fr;
 }
@@ -50,18 +49,20 @@
 }
 
 .sweepScreens, .stepScreens {  
-    width: 90%;
-    height: 50%;
+    width: 70%;
+    height: auto;
     margin: auto;
+    margin-left: 0;
     margin-top: 30px;
 }
 
 .sweepText, .stepText {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 100%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .stepProduct {
@@ -74,4 +75,48 @@
 
 .stepScreens {
     grid-area: stepScreens;
+}
+
+.ph1 {
+    font-size: 2.5rem;
+    color: var(--cor2);
+}
+
+.ph3 {
+    font-size: 1.25rem;
+    color: var(--cor3);
+    font-weight: 100;
+}
+
+.pp {
+    font-size: 1rem;
+    color: var(--cor4);
+}
+
+.psub {
+    font-size: 0.7rem;
+    color: var(--cor4);
+}
+
+.link {
+    color: var(--cor1);
+}
+
+.btn {
+    width: 160px;
+    height: 50px;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkBtn {
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
 }
