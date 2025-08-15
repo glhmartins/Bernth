@@ -1,3 +1,9 @@
+.footer_container {
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+}
+
 .footer {
     background-color: rgb(40, 40, 40);
     display:flex;

@@ -6,7 +6,7 @@ import {FaPatreon} from 'react-icons/fa';
 
 function Footer(){
     return(
-        <footer>
+        <footer className={style.footer_container}>
             <div className={style.footer}>
             
                 {/* Sweat Records logo */}

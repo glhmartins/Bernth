@@ -6,15 +6,9 @@ import style from './css/Layout.module.css'
 function Layout(){
     return(
         <div className={style.container}>
-            <div className={style.layout}>
-                <Navbar />
-                <div>
-                    <Outlet />
-                </div>
-            </div>
-            <div className={style.footer}>
+            <Navbar />
+            <Outlet />  
             <Footer />
-            </div>
         </div>
     )
 }
