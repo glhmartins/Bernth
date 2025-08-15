@@ -1,0 +1,77 @@
+.products {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.stepBanner {
+    background: var(--background10steps);
+}
+
+.sweepBanner {
+    background: var(--backgroundSweep);
+}
+
+.sweepBanner, .stepBanner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSweep, .imgStep {
+    width: 60%;
+}
+
+.sweepProduct, .stepProduct {
+    width: 100vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-auto-rows: 1fr;
+}
+
+.sweepProduct {
+    grid-template-areas: "sweepText sweepScreens";
+}
+
+.sweepScreens {
+    grid-area: sweepScreens;
+}
+
+.sweepText {
+    grid-area: sweepText;
+}
+
+.sweepScreens, .stepScreens {  
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sweepText, .stepText {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stepProduct {
+    grid-template-areas: "stepText stepScreens";
+}
+
+.stepText {
+    grid-area: stepText;
+}
+
+.stepScreens {
+    grid-area: stepScreens;
+}

@@ -1,5 +1,4 @@
 import style from './css/Home.module.css'
-import Hero from '../assets/hero.jpg'
 
 function Home(){
     return(

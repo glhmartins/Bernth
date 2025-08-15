@@ -4,4 +4,6 @@
     box-sizing: border-box;
     --cor1: #9f935f;
     --background: url("./assets/hero.jpg");
+    --backgroundSweep: url("./assets/background_sweep_banner.jpg");
+    --background10steps: url("./assets/background_10steps_banner.jpg");
 }

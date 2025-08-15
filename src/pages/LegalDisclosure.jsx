@@ -14,7 +14,7 @@ function LegalDisclosure(){
             </p>
             <b className={style.contact}>Contact</b>
             <p className={style.text}>E-Mail:
-                <Link className={style.link} to="mailto:contact@bernth.at" target="_blank">contact@bernth.at</Link>
+                <Link className={style.link} to="mailto:contact@bernth.at" target="_blank"> contact@bernth.at</Link>
             </p>
         </div>
     )
