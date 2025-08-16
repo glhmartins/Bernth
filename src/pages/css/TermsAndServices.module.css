@@ -26,3 +26,30 @@ section > h2 {
 section > p{
     font-size: 1.1rem;
 }
+
+@media screen and (max-width: 1280px){
+    .terms > section {
+        width: 70%;
+    }
+    .terms > h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .terms > section {
+        width: 80%;
+    }
+    .terms > h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .terms > section {
+        width: 90%;
+    }
+    .terms > h1 {
+        font-size: 2.7rem;
+    }
+}
