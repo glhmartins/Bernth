@@ -79,7 +79,7 @@
     color: var(--cor1);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 550px){
     .pages {
         width: 90%;
         display: flex;
@@ -88,5 +88,14 @@
     .page {
         display: block;
         text-align: center;
+    }
+    .footer {
+        padding: 10px;
+    }
+    .socials {
+        margin-bottom: 10px;
+    }
+    .copyright {
+        margin-bottom: 15px;
     }
 }
