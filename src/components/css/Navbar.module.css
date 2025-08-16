@@ -2,16 +2,17 @@
     width: 100vw;
     display: flex;
     position: fixed;
+    align-items: center;
     margin-bottom: 10px;
-    height: 80px;
+    height: 100px;
+    background: linear-gradient(0, rgba(0,0,0, 0), black);
 }
 
 .img {
     display: flex;
-    height: 90%;
     justify-content: center;
+    height: 75%;
     margin-left: 0.5%;
-    margin-top: auto;
 }
 
 .list {
