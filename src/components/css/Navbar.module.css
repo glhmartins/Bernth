@@ -37,3 +37,7 @@
 .item:hover {
     color: var(--cor1);
 }
+
+.active {
+    color: var(--cor1);
+}

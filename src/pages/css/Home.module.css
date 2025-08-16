@@ -113,6 +113,11 @@
 .imgCard {
     width: 100%;
     height: 65%;
+    opacity: 0.25;
+}
+
+.imgCard:hover{
+    opacity: 1;
 }
 
 .cards {
