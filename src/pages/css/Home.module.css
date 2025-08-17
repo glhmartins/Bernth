@@ -139,3 +139,97 @@
 .cardText {
     padding: 15px;
 }
+
+@media screen and (max-width: 1280px){
+    .header {
+        width: 80%;
+    }
+    .spanDiv {
+        width: 85%;
+    }
+    .spanText{
+        font-size: 2.2rem;
+    }
+    .divBio {
+        width: 60%;
+    }
+    .btn {
+        width: 25%;
+    }
+    .imgCard {
+        height: 62.5%;
+    }
+    .cards {
+        justify-content: center;
+    }
+    .card {
+        width: 28%;
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .spanDiv {
+        width: 90%;
+    }
+    .spanText{
+        font-size: 2.1rem;
+    }
+    .divBio {
+        width: 70%;
+    }
+    .btn {
+        width: 30%;
+    }
+    .imgCard {
+        height: 60%;
+    }
+    .card {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .spanDiv {
+        width: 92.5%;
+    }
+    .spanText{
+        font-size: 2rem;
+    }
+    .divBio {
+        width: 80%;
+    }
+    .btn {
+        width: 40%;
+    }
+    .imgCard {
+        height: 55%;
+    }
+    .card {
+        width: 57.5%;
+        height: 18%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .spanDiv {
+        width: 95%;
+    }
+    .spanText{
+        font-size: 1.75rem;
+    }
+    .divBio {
+        width: 90%;
+    }
+    .btn {
+        width: 50%;
+    }
+    .imgCard {
+        height: 55%;
+    }
+    .card {
+        width: 65%;
+        height: 18%;
+    }
+}
