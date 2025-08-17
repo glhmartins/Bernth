@@ -120,3 +120,27 @@
     font-size: 1rem;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .sweepProduct {
+        grid-template-areas: "sweepScreens"
+                             "sweepText";
+    }
+    .stepProduct {
+        grid-template-areas: "stepScreens"
+                             "stepText";
+    }
+    .sweepProduct, .stepProduct {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        margin: auto;
+    }
+    .sweepScreens, .stepScreens {
+        width: 90%;
+        margin: auto;
+    }
+    .sweepText, .stepText {
+        width: 90%;
+        margin: auto;
+    }
+}
