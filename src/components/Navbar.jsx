@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Logo from '../assets/logo.png'
 import style from './css/Navbar.module.css'
 import {NavLink} from 'react-router-dom'
@@ -8,7 +8,9 @@ function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => setIsMobile(window.innerWidth<=1024), []);
+    const handleResize = () => setIsMobile(window.innerWidth<=1024);
+
+    window.addEventListener('resize', handleResize);
 
     const navDesktop = (
         <ul className={style.list}>
@@ -85,7 +87,7 @@ function Navbar(){
             {/* Navbar links */}
             {!isMobile && navDesktop}
 
-            {/* Navbar Hamburger*/}
+            {/* Navbar Hamburger */}
             {isMobile && (
                 <div className={style.Hamburger}>
                     <Hamburger 
