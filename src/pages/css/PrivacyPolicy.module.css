@@ -36,3 +36,21 @@ section > h3 {
 .link {
     color: var(--cor1);
 }
+
+@media screen and (max-width: 1280px){
+    .privacyPolicy > section {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .privacyPolicy > section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .privacyPolicy > section {
+        width: 90%;
+    }
+}
