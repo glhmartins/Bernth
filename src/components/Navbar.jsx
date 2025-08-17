@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Logo from '../assets/logo.png'
 import style from './css/Navbar.module.css'
 import {NavLink} from 'react-router-dom'
@@ -8,9 +8,17 @@ function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
-    const handleResize = () => setIsMobile(window.innerWidth<=1024);
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 1024);
+        };
 
-    window.addEventListener('resize', handleResize);
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []); 
 
     const navDesktop = (
         <ul className={style.list}>
