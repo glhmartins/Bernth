@@ -40,7 +40,7 @@ function Home(){
                         <img src={ForTheSky} className={style.imgCard} alt="For the sky album image"/>
                         <div className={style.cardText}>
                             <h3 className={style.h3}>Harakiri</h3>
-                            <h4 className={style.h4}>For The Sky</h4>
+                            <h4 className={style.h4}>FOR THE SKY</h4>
                             <p className={style.text}>
                                 #2 Metal Hammer Soundcheck<br/>
                                 #29 German Album Charts<br/>
@@ -52,11 +52,11 @@ function Home(){
                     <div className={style.card}>
                         <img src={HamKummst} className={style.imgCard} alt="For the sky album image"/>
                         <div className={style.cardText}>
-                            <h3 className={style.h3}>Harakiri</h3>
-                            <h4 className={style.h4}>For The Sky</h4>
+                            <h3 className={style.h3}>Seiler und Speer</h3>
+                            <h4 className={style.h4}>HAM KUMMST</h4>
                             <p className={style.text}>
-                                #2 Metal Hammer Soundcheck<br/>
-                                #29 German Album Charts<br/>
+                                #1 Album & Single <br/>Gold award & 4x Platinum Award<br/>
+                                2x Amadeus Music Award<br/>
                             </p>
                         </div>
                     </div>
@@ -65,11 +65,11 @@ function Home(){
                     <div className={style.card}>
                         <img src={UndWeida} className={style.imgCard} alt="For the sky album image"/>
                         <div className={style.cardText}>
-                            <h3 className={style.h3}>Harakiri</h3>
-                            <h4 className={style.h4}>For The Sky</h4>
+                            <h3 className={style.h3}>Seiler und Speer</h3>
+                            <h4 className={style.h4}>UND WEIDA?</h4>
                             <p className={style.text}>
-                                #2 Metal Hammer Soundcheck<br/>
-                                #29 German Album Charts<br/>
+                                #1 Album & #3 Single<br/>
+                                Gold award & Platinum Award<br/>
                             </p>
                         </div>
                     </div>
@@ -78,11 +78,11 @@ function Home(){
                     <div className={style.card}>
                         <img src={Horvathslos} className={style.imgCard} alt="For the sky album image"/>
                         <div className={style.cardText}>
-                            <h3 className={style.h3}>Harakiri</h3>
-                            <h4 className={style.h4}>For The Sky</h4>
+                            <h3 className={style.h3}>Seiler und Speer</h3>
+                            <h4 className={style.h4}>HORVATHLOS</h4>
                             <p className={style.text}>
-                                #2 Metal Hammer Soundcheck<br/>
-                                #29 German Album Charts<br/>
+                                Soundtrack Season 2-4<br/>
+                                2x Gold Award<br/>
                             </p>
                         </div>
                     </div>
@@ -91,11 +91,11 @@ function Home(){
                     <div className={style.card}>
                         <img src={LiveInWien} className={style.imgCard} alt="For the sky album image"/>
                         <div className={style.cardText}>
-                            <h3 className={style.h3}>Harakiri</h3>
-                            <h4 className={style.h4}>For The Sky</h4>
+                            <h3 className={style.h3}>Seiler und Speer</h3>
+                            <h4 className={style.h4}>LIVE IN WIEN</h4>
                             <p className={style.text}>
-                                #2 Metal Hammer Soundcheck<br/>
-                                #29 German Album Charts<br/>
+                                Live DVD<br/>
+                                Sold out show in Vienna<br/>
                             </p>
                         </div>
                     </div>
